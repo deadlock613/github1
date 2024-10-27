@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Unbounded", sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
+}
+
+.navbar h1{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.navbar a{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    text-decoration: none;
+    color: #3a3c35;
+}
+
+.nav-link{
+    display: flex;
+    gap: 30px;
+}
+
+.burger{
+    display: none;
+}
+
+.header{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 3%;
+    gap: 70px;
+}
+
+.header-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.header h1{
+    font-size: 124px;
+    font-weight: 500;
+    line-height: 136px;
+    color: #3a3c35;
+}
+
+.header-div h2{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    padding: 5px 0;
+}
+
+.header-div button{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    width: 160px;
+    gap: 10px;
+    justify-content: center;
+    background-color: white;
+}
+
+.img-none{
+    display: none;
+}
+
+.card-1{
+    background: url("") center center no-repeat;
+}
+
+.catd-2{
+    background: url("") center center no-repeat;
+}
+
+.catd-3{
+    background: url("") center center no-repeat;
+}
+
+.catd-4{
+    background: url("") center center no-repeat;
+}
+
+
+.catd-5{
+    background: url("") center center no-repeat;
+}
+
+.catd-6{
+    background: url("") center center no-repeat;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+ .grid-car h2{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.76px;
+    color: #ffff  ;
+ }
+@media (max-width: 840px) {
+    .burger{
+        display: block;
+    }
+    .nav-link, .navbar p{
+        display: none;
+    }
+}
